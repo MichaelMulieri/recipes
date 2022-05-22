@@ -61,8 +61,8 @@ class Recipe:
         if data['date_made'] == "":
             is_valid = False
             flash("You must include a date made")
-        # if data['under_30'] != (int):
-        #     is_valid = False
-        #     flash("You must include cooking time")
+        if 'under_30' not in data:
+            is_valid = False
+            flash("You must include cooking time")
         return is_valid
 
