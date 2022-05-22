@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.register, .login{
+    width: 425px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid black 1px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.top_bar, .tags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.tags{
+    width: 200px;
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-group-text{
+    width: 75px;
+}
+
+.left_form{
+    margin-right: 50px;
+}
+
+.right_form{
+    margin-top: 35px;
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.table{
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
